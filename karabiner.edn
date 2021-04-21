@@ -1,1 +1,5 @@
-{:des "caps_lock" :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
+{
+  :main[
+    {:des "caps_lock" :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
+    {:des "simultaneous eng kana press to esc" :rules [[[:japanese_eisuu :japanese_kana] :escape]]}
+  ]}

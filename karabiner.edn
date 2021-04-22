@@ -1,4 +1,9 @@
-{:simlayers {:eisuu-mode {:key :japanese_eisuu}}
+{
+ :simlayers {
+             :eisuu-mode {:key :japanese_eisuu}
+             :kana-mode {:key :japanese_kana}
+             :semicolon-mode {:key :semicolon}
+            }
  :main [{
          :des "eisuu mode"
          :rules [
@@ -14,7 +19,10 @@
                  [:m :!Odown_arrow :eisuu-mode]
                  [:comma :!Oup_arrow :eisuu-mode]
                  [:period :!Oright_arrow :eisuu-mode]
+                 ;; backspace delete
+                 [:y :delete_or_backspace :eisuu-mode]
+                 [:o :delete_forward :eisuu-mode]
          ]
-         }
+        }
       ]
  }

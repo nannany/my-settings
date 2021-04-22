@@ -154,7 +154,9 @@
                  [:period :!Oright_arrow]
                  ;; backspace delete
                  [:y :delete_or_backspace]
-                 [:o :delete_forward]]}
+                 [:o :delete_forward]
+                 ;; escape 
+                 [:japanese_kana :escape]]}
         {:des "semicolon mode"
          :rules [:semicolon-mode
                  [:a :open_bracket] ;; @ 

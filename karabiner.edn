@@ -2,8 +2,8 @@
  :simlayers {
              :eisuu-mode {:key :japanese_eisuu}
              :kana-mode {:key :japanese_kana}
-             :semicolon-mode {:key :semicolon}
-            }
+             :semicolon-mode {:key :semicolon}}
+            
  :main [{:des "eisuu mode"
          :rules [:eisuu-mode
                  ;; 上下左右
@@ -20,14 +20,15 @@
                  [:period :!Oright_arrow]
                  ;; backspace delete
                  [:y :delete_or_backspace]
-                 [:o :delete_forward]]
-         }
-      {
-       :des "semicolon mode"
-       :rules [
-               :semicolon-mode
-              [:a :open_bracket] ;; @ 
-       ]
-      }
-      ]
- }
+                 [:o :delete_forward]]}
+         
+        {
+         :des "semicolon mode"
+         :rules [
+                 :semicolon-mode
+                 [:a :open_bracket] ;; @ 
+                 [:z :!S3]] ;; # 
+       
+         }]}
+      
+ 

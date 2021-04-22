@@ -4,10 +4,8 @@
              :kana-mode {:key :japanese_kana}
              :semicolon-mode {:key :semicolon}
             }
- :main [{
-         :des "eisuu mode"
-         :rules [
-                 :eisuu-mode
+ :main [{:des "eisuu mode"
+         :rules [:eisuu-mode
                  ;; 上下左右
                  [:h :left_arrow]
                  [:j :down_arrow]
@@ -22,8 +20,14 @@
                  [:period :!Oright_arrow]
                  ;; backspace delete
                  [:y :delete_or_backspace]
-                 [:o :delete_forward]
-         ]
+                 [:o :delete_forward]]
          }
+      {
+       :des "semicolon mode"
+       :rules [
+               :semicolon-mode
+              [:a :open_bracket] ;; @ 
+       ]
+      }
       ]
  }

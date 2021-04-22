@@ -1,8 +1,20 @@
 {:simlayers {:eisuu-mode {:key :japanese_eisuu}}
- :main [{:des "eisuu mode"
-         :rules [[:h :left_arrow :eisuu-mode]
+ :main [{
+         :des "eisuu mode"
+         :rules [
+                 ;; 上下左右
+                 [:h :left_arrow :eisuu-mode]
                  [:j :down_arrow :eisuu-mode]
                  [:k :up_arrow :eisuu-mode]
-                 [:l :right_arrow :eisuu-mode]]}
+                 [:l :right_arrow :eisuu-mode]
+                 ;; enter
+                 [:spacebar :return_or_enter :eisuu-mode]
+                 ;; option上下左右
+                 [:n :!Oleft_arrow :eisuu-mode]
+                 [:m :!Odown_arrow :eisuu-mode]
+                 [:comma :!Oup_arrow :eisuu-mode]
+                 [:period :!Oright_arrow :eisuu-mode]
+         ]
+         }
       ]
  }

@@ -1,5 +1,8 @@
-{
-  :main[
-    {:des "caps_lock" :rules [[:##caps_lock :left_control nil {:alone :escape}]]}
-    {:des "simultaneous eng kana press to esc" :rules [[[:japanese_eisuu :japanese_kana] :escape]]}
-  ]}
+{:simlayers {:eisuu-mode {:key :japanese_eisuu}}
+ :main [{:des "eisuu mode"
+         :rules [[:h :left_arrow :eisuu-mode]
+                 [:j :down_arrow :eisuu-mode]
+                 [:k :up_arrow :eisuu-mode]
+                 [:l :right_arrow :eisuu-mode]]}
+      ]
+ }

@@ -7,22 +7,23 @@
  :main [{
          :des "eisuu mode"
          :rules [
+                 :eisuu-mode
                  ;; 上下左右
-                 [:h :left_arrow :eisuu-mode]
-                 [:j :down_arrow :eisuu-mode]
-                 [:k :up_arrow :eisuu-mode]
-                 [:l :right_arrow :eisuu-mode]
+                 [:h :left_arrow]
+                 [:j :down_arrow]
+                 [:k :up_arrow]
+                 [:l :right_arrow]
                  ;; enter
-                 [:spacebar :return_or_enter :eisuu-mode]
+                 [:spacebar :return_or_enter]
                  ;; option上下左右
-                 [:n :!Oleft_arrow :eisuu-mode]
-                 [:m :!Odown_arrow :eisuu-mode]
-                 [:comma :!Oup_arrow :eisuu-mode]
-                 [:period :!Oright_arrow :eisuu-mode]
+                 [:n :!Oleft_arrow]
+                 [:m :!Odown_arrow]
+                 [:comma :!Oup_arrow]
+                 [:period :!Oright_arrow]
                  ;; backspace delete
-                 [:y :delete_or_backspace :eisuu-mode]
-                 [:o :delete_forward :eisuu-mode]
+                 [:y :delete_or_backspace]
+                 [:o :delete_forward]
          ]
-        }
+         }
       ]
  }

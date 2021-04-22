@@ -4,7 +4,8 @@
              :kana-mode {:key :japanese_kana}
              :semicolon-mode {:key :semicolon}}
             
- :main [{:des "eisuu mode"
+ :main [{
+         :des "eisuu mode"
          :rules [:eisuu-mode
                  ;; 上下左右
                  [:h :left_arrow]
@@ -24,11 +25,13 @@
          
         {
          :des "semicolon mode"
-         :rules [
-                 :semicolon-mode
+         :rules [:semicolon-mode
                  [:a :open_bracket] ;; @ 
                  [:z :!S3]] ;; # 
-       
-         }]}
+         }
+        {
+         :des "capslock"
+         :rules [[:##caps_lock :left_control nil {:alone :caps_lock}]]
+        }]}
       
  

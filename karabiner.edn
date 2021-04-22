@@ -1,5 +1,6 @@
 {:simlayers {:a-mode {:key :a}
              :e-mode {:key :e}
+             :i-mode {:key :i}
              :q-mode {:key :q}
              :eisuu-mode {:key :japanese_eisuu}
              :kana-mode {:key :japanese_kana}
@@ -138,6 +139,36 @@
                  [:period :!CSperiod]
                  [:slash :!CSslash]
                  [:spacebar :!CSOe]]} ; Selection -> YouTube
+        {:des "ikey (symbols)"
+         :rules [:i-mode
+                 [:1 :!S1] ; !
+                 [:2 :!S2] ; "
+                 [:3 :!Sequal_sign] ; ~
+                 [:4 :!S8] ; (
+                 [:5 :!S5] ; %
+                 [:q :!Sopen_bracket] ; `
+                 [:w :!S9] ; )
+                 [:e :!S3] ; #
+                 [:r :!Squote] ; *
+                 [:t :quote] ; :
+                 [:o :open_bracket] ; @
+                 [:p :close_bracket] ; [
+                 [:open_bracket :!Sclose_bracket] ; }
+                ; [:caps_lock [:km "Match symbols"]]
+                 [:a :open_bracket] ; @
+                 [:s :!Shyphen] ; =
+                 [:d :!Ointernational3] ; \
+                 [:f :hyphen] ; -
+                 [:g :!S4] ; $
+                 [:j :equal_sign] ; ^
+                 [:l [:hyphen :!Speriod :spacebar]] ; -> 
+                 [:semicolon :semicolon] ; ;
+                 [:grave_accent_and_tilde :!Sgrave_accent_and_tilde] ; 
+                 [:z :!Sslash] ; ?
+                 [:x :!Sbackslash] ; }
+                 [:c :!S7] ; '
+                 [:v :!Scomma] ; <
+                 [:b [:slash :slash :spacebar]]]} ; // 
         {:des "eisuu mode"
          :rules [:eisuu-mode
                  ;; 上下左右

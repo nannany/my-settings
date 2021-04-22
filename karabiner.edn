@@ -1,14 +1,11 @@
-{
- :simlayers {
-             :a-mode {:key :a}
+{:simlayers {:a-mode {:key :a}
              :e-mode {:key :e}
+             :q-mode {:key :q}
              :eisuu-mode {:key :japanese_eisuu}
              :kana-mode {:key :japanese_kana}
              :semicolon-mode {:key :semicolon}}
-            
- :main [
-        {
-         :des "a mode(ctrl)"
+
+ :main [{:des "a mode(ctrl)"
          :rules [:a-mode
                  [:2 :!T2]
                  [:3 :!T3]
@@ -52,56 +49,96 @@
                  [:period :!Tperiod]
                  [:slash :!Tslash]
                  [:spacebar :!CT9] ;; Selection -> Google
-         ]
-         }
-                {:des "ekey (cmd)"
-                 :rules [:e-mode
-                         [:q :!Cq]
-                         [:w :!Cw]
-                         [:r :!Cr]
-                         [:t :!Ct]
-                         [:u :!Cu]
-                         [:i :!Ci]
-                         [:p :!Cp]
-                         [:open_bracket :!Copen_bracket]
-                         [:close_bracket :!Cclose_bracket]
-                         [:semicolon :!Csemicolon]
-                         [:quote :!Cquote]
-                         [:comma :!Ccomma]
-                         [:period :!Cperiod]
-                         [:slash :!Cslash]
-                         [:a :!Ca]
-                         [:b :!Cb]
-                         [:c :!Cc]
-                         [:d :!Cd]
-                         [:f :!Cf]
-                         [:g :!Cg]
-                         [:h :!Ch]
-                         [:j :!Cj]
-                         [:k :!Ck]
-                         [:l :!Cl]
-                         [:m :!Cm]
-                         [:n :!Cn]
-                         [:o :!Co]
-                         [:s :!Cs]
-                         [:v :!Cv]
-                         [:x :!Cx]
-                         [:y :!Cy]
-                         [:z :!Cz]
-                         [:1 :!C1]
-                         [:2 :!C2]
-                         [:3 :!C3]
-                         [:4 :!C4]
-                         [:5 :!C5]
-                         [:6 :!C6]
-                         [:7 :!C7]
-                         [:8 :!C8]
-                         [:9 :!C9]
-                         [:0 :!C0]
-                         [:spacebar :!CSO7]]
-                         } ; Selection -> Google Lucky
-        {
-         :des "eisuu mode"
+                 ]}
+        {:des "ekey (cmd)"
+         :rules [:e-mode
+                 [:q :!Cq]
+                 [:w :!Cw]
+                 [:r :!Cr]
+                 [:t :!Ct]
+                 [:u :!Cu]
+                 [:i :!Ci]
+                 [:p :!Cp]
+                 [:open_bracket :!Copen_bracket]
+                 [:close_bracket :!Cclose_bracket]
+                 [:semicolon :!Csemicolon]
+                 [:quote :!Cquote]
+                 [:comma :!Ccomma]
+                 [:period :!Cperiod]
+                 [:slash :!Cslash]
+                 [:a :!Ca]
+                 [:b :!Cb]
+                 [:c :!Cc]
+                 [:d :!Cd]
+                 [:f :!Cf]
+                 [:g :!Cg]
+                 [:h :!Ch]
+                 [:j :!Cj]
+                 [:k :!Ck]
+                 [:l :!Cl]
+                 [:m :!Cm]
+                 [:n :!Cn]
+                 [:o :!Co]
+                 [:s :!Cs]
+                 [:v :!Cv]
+                 [:x :!Cx]
+                 [:y :!Cy]
+                 [:z :!Cz]
+                 [:1 :!C1]
+                 [:2 :!C2]
+                 [:3 :!C3]
+                 [:4 :!C4]
+                 [:5 :!C5]
+                 [:6 :!C6]
+                 [:7 :!C7]
+                 [:8 :!C8]
+                 [:9 :!C9]
+                 [:0 :!C0]
+                 [:spacebar :!CSO7]]} ; Selection -> Google Lucky
+        {:des "qkey (cmd + shift)"
+         :rules [:q-mode
+                 [:3 :!CS3]
+                 [:4 :!CS4]
+                 [:5 :!CS5]
+                 [:6 :!CS6]
+                 [:7 :!CS7]
+                 [:8 :!CS8]
+                 [:9 :!CS9]
+                 [:0 :!CS0]
+                 [:w :!CSw]
+                 [:e :!CSe]
+                 [:r :!CSr]
+                 [:t :!CSt]
+                 [:y :!CSy]
+                 [:u :!CSu]
+                 [:i :!CSi]
+                 [:o :!CSo]
+                 [:p :!CSp]
+                 [:open_bracket :!CSopen_bracket]
+                 [:close_bracket :!CSclose_bracket]
+                 [:a :!CSa]
+                 [:s :!CSs]
+                 [:d :!CSd]
+                 [:f :!CSf]
+                 [:g :!CSg]
+                 [:h :!CSh]
+                 [:j :!CSj]
+                 [:k :!CSk]
+                 [:l :!CSl]
+                 [:semicolon :!CSsemicolon]
+                 [:quote :!CSquote]
+                 [:z :!CSz]
+                 [:x :!CSx]
+                 [:c :!CSc]
+                 [:v :!CSv]
+                 [:b :!CSb]
+                 [:n :!CSn]
+                 [:m :!CSm]
+                 [:comma :!CScomma]
+                 [:period :!CSperiod]
+                 [:slash :!CSslash]
+                 [:spacebar :!CSOe]]} ; Selection -> YouTube
+        {:des "eisuu mode"
          :rules [:eisuu-mode
                  ;; 上下左右
                  [:h :left_arrow]
@@ -117,22 +154,14 @@
                  [:period :!Oright_arrow]
                  ;; backspace delete
                  [:y :delete_or_backspace]
-                 [:o :delete_forward]]
-         }
-        {
-         :des "semicolon mode"
+                 [:o :delete_forward]]}
+        {:des "semicolon mode"
          :rules [:semicolon-mode
                  [:a :open_bracket] ;; @ 
                  [:z :!S3]] ;; # 
          }
-        {
-         :des "capslock"
-         :rules [[:##caps_lock :left_control nil {:alone :caps_lock}]]
-        }
-        {
-         :des "left_control"
-         :rules [[:##left_control :left_command nil {:alone :left_command}]]
-        }
-        ]}
-      
- 
+        {:des "capslock"
+         :rules [[:##caps_lock :left_control nil {:alone :caps_lock}]]}
+        {:des "left_control"
+         :rules [[:##left_control :left_command nil {:alone :left_command}]]}]}
+

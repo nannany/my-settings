@@ -166,4 +166,3 @@
          :rules [[:##caps_lock :left_control nil {:alone :caps_lock}]]}
         {:des "left_control"
          :rules [[:##left_control :left_command nil {:alone :left_command}]]}]}
-

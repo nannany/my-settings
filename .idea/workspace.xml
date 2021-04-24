@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="ideavimrcもここに入れる">
+    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="ウィンドウの移動に関するショートカットを設定">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/karabiner.edn" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.edn" afterDir="false" />
     </list>
@@ -83,7 +83,7 @@
       <workItem from="1619155591465" duration="85000" />
       <workItem from="1619155690461" duration="392000" />
       <workItem from="1619227772364" duration="440000" />
-      <workItem from="1619240637820" duration="788000" />
+      <workItem from="1619240637820" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="semicolonでshiftにしてくれる設定を入れた y">
       <created>1619153148199</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619155836198</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ウィンドウの移動に関するショートカットを設定">
+      <created>1619241537495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619241537495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +138,7 @@
     <MESSAGE value="semicolonでshiftにしてくれる設定を入れた y" />
     <MESSAGE value="sの設定も入れた" />
     <MESSAGE value="ideavimrcもここに入れる" />
-    <option name="LAST_COMMIT_MESSAGE" value="ideavimrcもここに入れる" />
+    <MESSAGE value="ウィンドウの移動に関するショートカットを設定" />
+    <option name="LAST_COMMIT_MESSAGE" value="ウィンドウの移動に関するショートカットを設定" />
   </component>
 </project>

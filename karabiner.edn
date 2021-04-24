@@ -4,6 +4,7 @@
              :p-mode         {:key :p}
              :q-mode         {:key :q}
              :s-mode         {:key :s}
+             :z-mode         {:key :z}
              :eisuu-mode     {:key :japanese_eisuu}
              :kana-mode      {:key :japanese_kana}
              :semicolon-mode {:key :semicolon}}
@@ -239,6 +240,23 @@
                       [:n :!Cv] ; Paste
                       [:##m :!Cright_arrow]
                       [:period :!COS0]]} ; Selection -> Alfred Snippets
+             {:des   "zkey (option + shift). for amethyst"
+              :rules [:z-mode
+                      [:spacebar :!OSspacebar]
+                      [:d :!OSd]
+                      [:e :!OSe]
+                      [:f :!OSf]
+                      [:h :!OSh]
+                      [:i :!OSi]
+                      [:j :!OSj]
+                      [:k :!OSk]
+                      [:l :!OSl]
+                      [:m :!OSm]
+                      [:n :!OSn]
+                      [:p :!OSp]
+                      [:r :!OSr]
+                      [:t :!OSt]
+                      [:w :!OSw]]}
              {:des   "eisuu mode"
               :rules [:eisuu-mode
                       ;; 上下左右

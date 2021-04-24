@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="sの設定も入れた">
+    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="ideavimrcもここに入れる">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karabiner.edn" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.edn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,7 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
@@ -79,7 +81,9 @@
       <workItem from="1619152571863" duration="372000" />
       <workItem from="1619152957253" duration="2080000" />
       <workItem from="1619155591465" duration="85000" />
-      <workItem from="1619155690461" duration="21000" />
+      <workItem from="1619155690461" duration="392000" />
+      <workItem from="1619227772364" duration="440000" />
+      <workItem from="1619240637820" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="semicolonでshiftにしてくれる設定を入れた y">
       <created>1619153148199</created>
@@ -95,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619154759535</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ideavimrcもここに入れる">
+      <created>1619155836198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619155836198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="semicolonでshiftにしてくれる設定を入れた y" />
     <MESSAGE value="sの設定も入れた" />
-    <option name="LAST_COMMIT_MESSAGE" value="sの設定も入れた" />
+    <MESSAGE value="ideavimrcもここに入れる" />
+    <option name="LAST_COMMIT_MESSAGE" value="ideavimrcもここに入れる" />
   </component>
 </project>

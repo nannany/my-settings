@@ -1,6 +1,7 @@
 {:simlayers {:a-mode         {:key :a}
              :e-mode         {:key :e}
              :i-mode         {:key :i}
+             :p-mode         {:key :p}
              :q-mode         {:key :q}
              :s-mode         {:key :s}
              :eisuu-mode     {:key :japanese_eisuu}
@@ -132,6 +133,11 @@
                       [:9 :!C9]
                       [:0 :!C0]
                       [:spacebar :!CSO7]]}                  ; Selection -> Google Lucky
+             {:des   "pkey (control + option + shift). for amethyst"
+              :rules [:p-mode
+                      [:e :!TOSe]
+                      [:r :!TOSr]
+                      [:w :!TOSw]]}
              {:des   "qkey (cmd + shift)"
               :rules [:q-mode
                       [:3 :!CS3]

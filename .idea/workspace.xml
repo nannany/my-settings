@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="ウィンドウの移動に関するショートカットを設定">
+    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="amethyst用のショートカットを設定">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/karabiner.edn" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.edn" afterDir="false" />
     </list>
@@ -83,7 +83,7 @@
       <workItem from="1619155591465" duration="85000" />
       <workItem from="1619155690461" duration="392000" />
       <workItem from="1619227772364" duration="440000" />
-      <workItem from="1619240637820" duration="1431000" />
+      <workItem from="1619240637820" duration="2239000" />
     </task>
     <task id="LOCAL-00001" summary="semicolonでshiftにしてくれる設定を入れた y">
       <created>1619153148199</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619241537495</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="amethyst用のショートカットを設定">
+      <created>1619242151770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619242151770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
     <MESSAGE value="sの設定も入れた" />
     <MESSAGE value="ideavimrcもここに入れる" />
     <MESSAGE value="ウィンドウの移動に関するショートカットを設定" />
-    <option name="LAST_COMMIT_MESSAGE" value="ウィンドウの移動に関するショートカットを設定" />
+    <MESSAGE value="amethyst用のショートカットを設定" />
+    <option name="LAST_COMMIT_MESSAGE" value="amethyst用のショートカットを設定" />
   </component>
 </project>

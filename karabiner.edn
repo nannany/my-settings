@@ -136,11 +136,18 @@
                       [:spacebar :!CSO7]]}                  ; Selection -> Google Lucky
              {:des   "pkey (control + option + shift). for amethyst"
               :rules [:p-mode
+                      [:left_arrow :!TOSleft_arrow]
+                      [:right_arrow :!TOSright_arrow]
                       [:e :!TOSe]
                       [:h :!TOSh]
+                      [:j :!TOSj]
+                      [:k :!TOSk]
                       [:l :!TOSl]
                       [:r :!TOSr]
-                      [:w :!TOSw]]}
+                      [:t :!TOSt]
+                      [:x :!TOSx]
+                      [:w :!TOSw]
+                      [:z :!TOSz]]}
              {:des   "qkey (cmd + shift)"
               :rules [:q-mode
                       [:3 :!CS3]

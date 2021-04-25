@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="semicolonモード設定">
+    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="p-mode充実">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/karabiner.edn" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.edn" afterDir="false" />
     </list>
@@ -83,7 +83,8 @@
       <workItem from="1619155591465" duration="85000" />
       <workItem from="1619155690461" duration="392000" />
       <workItem from="1619227772364" duration="440000" />
-      <workItem from="1619240637820" duration="2467000" />
+      <workItem from="1619240637820" duration="3081000" />
+      <workItem from="1619351811178" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="semicolonでshiftにしてくれる設定を入れた y">
       <created>1619153148199</created>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619242907990</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="p-mode充実">
+      <created>1619243226262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619243226262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="ウィンドウの移動に関するショートカットを設定" />
     <MESSAGE value="amethyst用のショートカットを設定" />
     <MESSAGE value="semicolonモード設定" />
-    <option name="LAST_COMMIT_MESSAGE" value="semicolonモード設定" />
+    <MESSAGE value="p-mode充実" />
+    <option name="LAST_COMMIT_MESSAGE" value="p-mode充実" />
   </component>
 </project>

@@ -3,7 +3,6 @@
              :i-mode         {:key :i}
              :p-mode         {:key :p}
              :q-mode         {:key :q}
-             :s-mode         {:key :s}
              :z-mode         {:key :z}
              :eisuu-mode     {:key :japanese_eisuu}
              :kana-mode      {:key :japanese_kana}
@@ -221,8 +220,8 @@
                       [:c :!S7]                             ; '
                       [:v :!Scomma]                         ; <
                       [:b [:slash :slash :spacebar]]]}      ; //
-             {:des   "skey (essential)"
-              :rules [:s-mode
+             {:des   "xkey (essential)"
+              :rules [:x-mode
                       [:w [:!Oleft_arrow :!OSright_arrow]]  ; Highlight word
                       [:e :tab]
                       [:r :!Stab]
@@ -243,6 +242,30 @@
                       [:v :left_shift]
                       [:##b :!Cleft_arrow]
                       [:n :!Cv]                             ; Paste
+                      [:##m :!Cright_arrow]
+                      [:period :!COS0]]}                    ; Selection -> Alfred Snippets
+             {:des   "kana key (essential)"
+              :rules [:kana-mode
+                      [:w [:!Oleft_arrow :!OSright_arrow]]  ; Highlight word
+                      [:e :tab]
+                      [:r :!Stab]
+                      [:t :!Sreturn_or_enter]
+                      [:u :!COp]                            ; Selection -> HasteBin link
+                      [:i :!CTperiod]                       ; Contexts search active windows
+                      [:x :!Cx]                             ; Cut
+                      ;[:open_bracket :!Oleft_arrow]
+                      ;[:open_bracket [:km "Lowercase selected text"]]
+                      ;[:close_bracket [:km "Uppercase selected text"]]
+                      [:c :!Cc]                             ; Copy
+                      [:d :delete_or_backspace]
+                      [:f :return_or_enter]
+                      [:g :!Ctab]
+                      [:semicolon :!CTO0]                   ; Search Alfred Snippets
+                      [:quote [:!Cleft_arrow :!CSright_arrow]] ; Highlight current line
+                      ;[:c :!Cdelete_or_backspace]
+                      ;[:v :left_shift]
+                      [:##b :!Cleft_arrow]
+                      [:v :!Cv]                             ; Paste
                       [:##m :!Cright_arrow]
                       [:period :!COS0]]}                    ; Selection -> Alfred Snippets
              {:des   "zkey (option + shift). for amethyst"

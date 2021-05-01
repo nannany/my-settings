@@ -188,6 +188,7 @@
                       [:m :!CSm]
                       [:comma :!CScomma]
                       [:period :!CSperiod]
+                      [:non_us_pound :!CSnon_us_pound]
                       [:slash :!CSslash]
                       [:spacebar :!CSOe]]}                  ; Selection -> YouTube
              {:des   "ikey (symbols)"
@@ -246,10 +247,11 @@
                       [:period :!COS0]]}                    ; Selection -> Alfred Snippets
              {:des   "kana key (essential)"
               :rules [:kana-mode
-                      [:w [:!Oleft_arrow :!OSright_arrow]]  ; Highlight word
+                      [:q :!TStab]  
+                      [:w :!Ttab]
                       [:e :tab]
                       [:r :!Stab]
-                      [:t :!Sreturn_or_enter]
+                      [:t [:!Oleft_arrow :!OSright_arrow]]  ; Highlight word
                       [:u :!COp]                            ; Selection -> HasteBin link
                       [:i :!CTperiod]                       ; Contexts search active windows
                       [:x :!Cx]                             ; Cut

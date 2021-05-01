@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="p-mode充実">
+    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="s-modeは不便が多いのでやめた">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karabiner.edn" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.edn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,9 @@
       <workItem from="1619155690461" duration="392000" />
       <workItem from="1619227772364" duration="440000" />
       <workItem from="1619240637820" duration="3081000" />
-      <workItem from="1619351811178" duration="612000" />
+      <workItem from="1619351811178" duration="1845000" />
+      <workItem from="1619384151917" duration="756000" />
+      <workItem from="1619493817183" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="semicolonでshiftにしてくれる設定を入れた y">
       <created>1619153148199</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619243226262</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="s-modeは不便が多いのでやめた">
+      <created>1619352440401</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619352440401</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +172,7 @@
     <MESSAGE value="amethyst用のショートカットを設定" />
     <MESSAGE value="semicolonモード設定" />
     <MESSAGE value="p-mode充実" />
-    <option name="LAST_COMMIT_MESSAGE" value="p-mode充実" />
+    <MESSAGE value="s-modeは不便が多いのでやめた" />
+    <option name="LAST_COMMIT_MESSAGE" value="s-modeは不便が多いのでやめた" />
   </component>
 </project>

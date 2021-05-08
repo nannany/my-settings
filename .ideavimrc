@@ -41,3 +41,6 @@ map <S-Space> <Action>(GotoNextError)
 
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>o <Action>(FileStructurePopup)
+
+nmap <S-h> <Action>(Back)
+nmap <S-l> <Action>(Forward)

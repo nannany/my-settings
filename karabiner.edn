@@ -273,6 +273,7 @@
              {:des   "zkey (option + shift). for amethyst"
               :rules [:z-mode
                       [:spacebar :!OSspacebar]
+                      [:return_or_enter :!OSreturn_or_enter]
                       [:d :!OSd]
                       [:e :!OSe]
                       [:f :!OSf]

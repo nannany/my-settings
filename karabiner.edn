@@ -263,7 +263,7 @@
                       [:f :return_or_enter]
                       [:g :!Ctab]
                       [:semicolon :!CTO0]                   ; Search Alfred Snippets
-                      [:quote [:!Cleft_arrow :!CSright_arrow]] ; Highlight current line
+                      [:z [:!Cleft_arrow :!CSright_arrow]] ; Highlight current line
                       ;[:c :!Cdelete_or_backspace]
                       ;[:v :left_shift]
                       [:##b :!Cleft_arrow]

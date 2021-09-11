@@ -1,5 +1,4 @@
 {:simlayers {:a-mode         {:key :a}
-             :e-mode         {:key :e}
              :i-mode         {:key :i}
              :p-mode         {:key :p}
              :q-mode         {:key :q}
@@ -88,51 +87,6 @@
                       [:slash :!Tslash]
                       [:spacebar :!CT9]                     ;; Selection -> Google
                       ]}
-             {:des   "ekey (cmd)"
-              :rules [:e-mode
-                      [:q :!Cq]
-                      [:w :!Cw]
-                      [:r :!Cr]
-                      [:t :!Ct]
-                      [:u :!Cu]
-                      [:i :!Ci]
-                      [:p :!Cp]
-                      [:open_bracket :!Copen_bracket]
-                      [:close_bracket :!Cclose_bracket]
-                      [:semicolon :!Csemicolon]
-                      [:quote :!Cquote]
-                      [:comma :!Ccomma]
-                      [:period :!Cperiod]
-                      [:slash :!Cslash]
-                      [:a :!Ca]
-                      [:b :!Cb]
-                      [:c :!Cc]
-                      [:d :!Cd]
-                      [:f :!Cf]
-                      [:g :!Cg]
-                      [:h :!Ch]
-                      [:j :!Cj]
-                      [:k :!Ck]
-                      [:l :!Cl]
-                      [:m :!Cm]
-                      [:n :!Cn]
-                      [:o :!Co]
-                      [:s :!Cs]
-                      [:v :!Cv]
-                      [:x :!Cx]
-                      [:y :!Cy]
-                      [:z :!Cz]
-                      [:1 :!C1]
-                      [:2 :!C2]
-                      [:3 :!C3]
-                      [:4 :!C4]
-                      [:5 :!C5]
-                      [:6 :!C6]
-                      [:7 :!C7]
-                      [:8 :!C8]
-                      [:9 :!C9]
-                      [:0 :!C0]
-                      [:spacebar :!CSO7]]}                  ; Selection -> Google Lucky
              {:des   "pkey (control + option + shift). for amethyst"
               :rules [:p-mode
                       [:left_arrow :!TOSleft_arrow]

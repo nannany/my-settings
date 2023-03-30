@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="s-modeは不便が多いのでやめた">
+    <list default="true" id="2a59fac2-5b55-472a-8a81-898f7024a376" name="Default Changelist" comment="e-modeけし">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karabiner.edn" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.edn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +24,28 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="w55j5z7a" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1rVkALN9ONl32tiO7Zg5BS8yEhM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -86,6 +91,8 @@
       <workItem from="1619351811178" duration="1845000" />
       <workItem from="1619384151917" duration="756000" />
       <workItem from="1619493817183" duration="140000" />
+      <workItem from="1631335979577" duration="1404000" />
+      <workItem from="1680186414937" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="semicolonでshiftにしてくれる設定を入れた y">
       <created>1619153148199</created>
@@ -143,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619352440401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="e-modeけし">
+      <created>1631336030635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631336030635</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +176,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="semicolonでshiftにしてくれる設定を入れた y" />
@@ -173,6 +186,7 @@
     <MESSAGE value="semicolonモード設定" />
     <MESSAGE value="p-mode充実" />
     <MESSAGE value="s-modeは不便が多いのでやめた" />
-    <option name="LAST_COMMIT_MESSAGE" value="s-modeは不便が多いのでやめた" />
+    <MESSAGE value="e-modeけし" />
+    <option name="LAST_COMMIT_MESSAGE" value="e-modeけし" />
   </component>
 </project>

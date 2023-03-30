@@ -201,8 +201,8 @@
                       [:period :!COS0]]}                    ; Selection -> Alfred Snippets
              {:des   "kana key (essential)"
               :rules [:kana-mode
-                      [:q :!TStab]  
-                      [:w :!Ttab]
+                      [:q :!TStab]   ; control + shift + tab
+                      [:w :!Ttab]    ; control + tab
                       [:e :tab]
                       [:r :!Stab]
                       [:t [:!Oleft_arrow :!OSright_arrow]]  ; Highlight word
@@ -262,7 +262,7 @@
                       ;; escape
                       [:japanese_kana :escape]]}
              {:des   "semicolon mode"
-              :rules [:semicolon-mode
+              :rules [:semicolon-mode ;;shift
                       [:q :!Sq]
                       [:w :!Sw]
                       [:e :!Se]

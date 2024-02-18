@@ -34,7 +34,7 @@ bindkey '^G' peco-ghq-selection
 
 # ctrl + b
 function peco-hub-selection() {
-    BUFFER="hub browse `ghq list | peco | cut -d "/" -f 2,3`"
+    BUFFER="gh repo view `ghq list | peco | cut -d "/" -f 2,3` --web"
     zle accept-line
     zle reset-prompt
 }

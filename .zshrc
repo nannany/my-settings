@@ -32,7 +32,7 @@ function peco-ghq-selection() {
 zle -N peco-ghq-selection
 bindkey '^G' peco-ghq-selection
 
-# ctrl + h
+# ctrl + b
 function peco-hub-selection() {
     BUFFER="hub browse `ghq list | peco | cut -d "/" -f 2,3`"
     zle accept-line

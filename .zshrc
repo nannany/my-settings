@@ -49,3 +49,9 @@ source /Users/nannany/ghq/github.com/zsh-users/zsh-syntax-highlighting/zsh-synta
 
 
 source $HOME/ghq/github.com/git/git/contrib/completion/git-prompt.sh
+# プロンプトのオプション表示設定
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+GIT_PS1_SHOWSTASHSTATE=true
+GIT_PS1_SHOWUPSTREAM=auto
+setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)") $AWS_PROFILE]\$ '

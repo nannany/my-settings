@@ -46,3 +46,6 @@ export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
 source ${HOMEBREW_PREFIX}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /Users/nannany/ghq/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+source $HOME/ghq/github.com/git/git/contrib/completion/git-prompt.sh

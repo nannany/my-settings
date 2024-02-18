@@ -1,7 +1,7 @@
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$GOPATH/pkg
 
-export GOKU_EDN_CONFIG_FILE=$HOME/ghq/github.com/nannany/my-settings/karabiner.edn 
+export GOKU_EDN_CONFIG_FILE=$HOME/ghq/github.com/nannany/my-settings/karabiner.edn
 
 # history
 HISTFILE=$HOME/.zsh_history
@@ -44,8 +44,8 @@ bindkey '^B' peco-hub-selection
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
 
-source ${HOMEBREW_PREFIX}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /Users/nannany/ghq/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/ghq/github.com/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/ghq/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 source $HOME/ghq/github.com/git/git/contrib/completion/git-prompt.sh

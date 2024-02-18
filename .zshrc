@@ -47,6 +47,7 @@ export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 source $HOME/ghq/github.com/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/ghq/github.com/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+autoload -Uz compinit && compinit
 
 source $HOME/ghq/github.com/git/git/contrib/completion/git-prompt.sh
 # プロンプトのオプション表示設定

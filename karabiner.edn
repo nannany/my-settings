@@ -153,7 +153,7 @@
                       [:4 :!S8]                             ; (
                       [:5 :!S5]                             ; %
                       [:q :!Sopen_bracket]                  ; `
-                      [:w :!S9]                             ; )
+                      [:w :!Sclose_bracket]                 ; {
                       [:e :!S3]                             ; #
                       [:r :!Squote]                         ; *
                       [:t :quote]                           ; :

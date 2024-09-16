@@ -157,9 +157,6 @@
                       [:e :!S3]                             ; #
                       [:r :!Squote]                         ; *
                       [:t :quote]                           ; :
-                      [:o :open_bracket]                    ; @
-                      [:p :close_bracket]                   ; [
-                      [:open_bracket :!Sclose_bracket]      ; }
                       ; [:caps_lock [:km "Match symbols"]]
                       [:a :open_bracket]                    ; @
                       [:s :!Shyphen]                        ; =

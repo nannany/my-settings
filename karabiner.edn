@@ -154,7 +154,7 @@
                       [:5 :!S5]                             ; %
                       [:q :!Sopen_bracket]                  ; `
                       [:w :!Sclose_bracket]                 ; {
-                      [:e :!S3]                             ; #
+                      [:e :close_bracket]                   ; [
                       [:r :!Squote]                         ; *
                       [:t :quote]                           ; :
                       ; [:caps_lock [:km "Match symbols"]]
@@ -169,7 +169,7 @@
                       [:grave_accent_and_tilde :!Sgrave_accent_and_tilde] ;
                       [:z :!Sslash]                         ; ?
                       [:x :!Sbackslash]                     ; }
-                      [:c :!S7]                             ; '
+                      [:c :backslash]                       ; ]
                       [:v :!Scomma]                         ; <
                       [:b [:slash :slash :spacebar]]]}      ; //
              {:des   "xkey (essential)"
